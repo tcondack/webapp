@@ -3,16 +3,24 @@ import './App.css';
 
 function App() {
   return (
-    <div style = {{textAlign:"center", padding:"50px"}}>
-      <h1>Trazendo aqui meus aprendizados e informações profissionais.</h1>
-      <p> Aqui penso em colocar minhas informações de contato e de aprendizagem.
-
-        Atualmente sou estudande de Analise e deselvolvimento de sistemas pela Unifeso, no penultimo período.
-        Aprendi bastante coisas e gostaria de compartilhar aqui minhas conquistas, <br>ainda estou planejando o que fazer por aqui, mas quero fazer algo que me demonstre como profissional e aprendiz sempre.
+    <div classname="container">
+      <header>
+        <h1>Tiago Evaristo Condack</h1>
+        <p>Desenvolverdor Junior</p>
+        </header>
+      <section>
+        <h2>Sobre</h2>
+        <p> 
+        Estudando React, Node.js, rodando em firebase.
         
+        Estudo também, python, django, Linux, MYSQL.
         SIC ITUR AD ASTRA.
-      </p>
-      
+        </p>
+        <div className='card'>
+          <h3>Projeto</h3>
+          <p>Descrição</p>
+        </div>
+      </section>      
     </div>
   );
 }
